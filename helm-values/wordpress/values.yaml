@@ -2,7 +2,7 @@ service:
   type: ClusterIP
 ingress:
   enabled: true
-  hostname: wordpress-192.168.1.142.sslip.io
+  hostname: wordpress-10.10.2.123.sslip.io
   tls: true
   selfSigned: true
 wordpressUsername: admin

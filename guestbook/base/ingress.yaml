@@ -1,11 +1,11 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: guest-ui
+  name: guestbook-ui
 spec:
   defaultBackend:
     service:
-      name: guest-ui
+      name: guestbook-ui
       port:
         number: 80
   rules:

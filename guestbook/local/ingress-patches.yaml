@@ -1,7 +1,3 @@
 - op: replace
   path: /spec/rules/0/host
-<<<<<<< HEAD
   value: guestbook-10.10.2.123.sslip.io
-=======
-  value: guestbook-127.0.0.1.sslip.io
->>>>>>> fbc968a73d1e1f812bdd9bcdc2e4a4c3a1afac06
